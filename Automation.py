@@ -6,7 +6,7 @@ kumaran = webdriver.Chrome()
 kumaran.get("https://github.com/")
 
 #Types the letter in the selected field
-kumaran_engineer = kumaran.find_element_by_xpath"/html/body/div[1]/header/div[3]/div/div/form/label/input[1]")
+kumaran_engineer = kumaran.find_element_by_xpath("/html/body/div[1]/header/div[3]/div/div/form/label/input[1]")
 kumaran_engineer.clear()
 
 #The search word is kumaranusa in github
